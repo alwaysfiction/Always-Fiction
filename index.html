@@ -94,21 +94,40 @@
             color: #2c3e50;
         }
 
-        .content {
+        .books {
             display: flex;
             flex-wrap: wrap;
             gap: 2em;
         }
 
-        .single_content {
+        .book {
             flex: 1 1 200px;
+            background: #eaf2f7;
+            padding: 1em;
+            border-radius: 5px;
+		}
+		
+		.book_img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 4px;
+        }
+			
+        .stories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+
+        .story {
+            flex: 0 1 45%;
             background: #eaf2f7;
             padding: 1em;
             border-radius: 5px;
         }
 		
 		.story_img {
-            max-width: 70%;
+			max-width: 100%;
             height: auto;
             border-radius: 4px;
         }
@@ -172,13 +191,13 @@ src="https://www.facebook.com/tr?id=737376478826825&ev=PageView&noscript=1"
 
 <section class="section" id="books">
     <h2>Books</h2>
-    <div class="content">
-        <div class="single_content">
+    <div class="books">
+        <div class="book">
 		<h3>Disturbing Peace (Book 1)</h3>
 			<a href="https://www.lulu.com/shop/nicolle-caputa/disturbing-peace/paperback/product-yqp757.html?srsltid=AfmBOopHB0GknTUVNS8vnp8zgE9-BJhAJa7QhjPPYRukhlz-wXrh2jfV&page=1&pageSize=4" class="button">Purchase on Amazon!</a>
             <br>
 			<br>
-			<a href="https://www.lulu.com/shop/nicolle-caputa/disturbing-peace/paperback/product-yqp757.html?srsltid=AfmBOopHB0GknTUVNS8vnp8zgE9-BJhAJa7QhjPPYRukhlz-wXrh2jfV&page=1&pageSize=4"><img src="Disturbing_Peace_Cover.jpg"" alt="Book Cover" class="story_img"></a>
+			<a href="https://www.lulu.com/shop/nicolle-caputa/disturbing-peace/paperback/product-yqp757.html?srsltid=AfmBOopHB0GknTUVNS8vnp8zgE9-BJhAJa7QhjPPYRukhlz-wXrh2jfV&page=1&pageSize=4"><img src="Disturbing_Peace_Cover.jpg"" alt="Book Cover" class="book_img"></a>
 <p>The world has traded individuality for control. To keep society “safe”, The Leaders will monitor every thought and every emotion. Showing too much emotion? You disappear.</p>
 
 
@@ -193,12 +212,12 @@ src="https://www.facebook.com/tr?id=737376478826825&ev=PageView&noscript=1"
 
 <p>In a world where freedom of thought is never permitted, staying silent might be the most dangerous choice of all.</p>
         </div>	
-        <div class="single_content">
+        <div class="book">
 		<h3>Disrupting Chaos (Book 2)</h3>
 			<a href="https://www.lulu.com/shop/nicolle-caputa/disrupting-chaos/paperback/product-y2pnm2.html?srsltid=AfmBOoqOSnNxgX18r3cNVDHE8dZDHT3QxfarjDhFbjlUT1u3cUgut5Xu&page=1&pageSize=4" class="button">Purchase on Amazon!</a>
 			<br>
 			<br>
-			<a href="https://www.lulu.com/shop/nicolle-caputa/disrupting-chaos/paperback/product-y2pnm2.html?srsltid=AfmBOoqOSnNxgX18r3cNVDHE8dZDHT3QxfarjDhFbjlUT1u3cUgut5Xu&page=1&pageSize=4"><img src="Disrupting_Chaos_Cover.jpg"" alt="Book Cover" class="story_img"></a>
+			<a href="https://www.lulu.com/shop/nicolle-caputa/disrupting-chaos/paperback/product-y2pnm2.html?srsltid=AfmBOoqOSnNxgX18r3cNVDHE8dZDHT3QxfarjDhFbjlUT1u3cUgut5Xu&page=1&pageSize=4"><img src="Disrupting_Chaos_Cover.jpg"" alt="Book Cover" class="book_img"></a>
 <p>Poppy Rivers thought she knew fear—until she wakes up inside the sterile walls of the unknown. She’s now at the mercy of The Leaders’ most ruthless form of control.</p>
 
 
@@ -218,22 +237,41 @@ src="https://www.facebook.com/tr?id=737376478826825&ev=PageView&noscript=1"
 
 <section class="section" id="free_stories">
     <h2>Free Stories</h2>
-    <div class="content">
-        <div class="single_content">
-		<h3>Short Story 1</h3>
-			<a href="test.pdf" download="Always-Fiction-Document.pdf" class="button">Download PDF</a>
+    <div class="stories">
+        <div class="story">
+		<h3>The Jump</h3>
+			<a href="The_Jump.pdf" download="The_Jump.pdf" class="button">Download PDF</a>
             <br>
 			<br>
-			<a href="test.pdf" download="Always-Fiction-Document.pdf"><img src="Disturbing_Peace_Cover.jpg"" alt="Book Cover" class="story_img"></a>
-<p>Description text here.</p>
+			<a href="The_Jump.pdf" download="Always-Fiction-Document.pdf"><img src="The_Jump_Banner.png"" alt="Book Cover" class="story_img"></a>
         </div>	
-        <div class="single_content">
-		<h3>Short Story 2</h3>
-			<a href="test.pdf" download="Always-Fiction-Document.pdf" class="button">Download PDF</a>
+        <div class="story">
+		<h3>Pumpkin's Truth</h3>
+			<a href="Pumpkin's_Truth.pdf" download="Pumpkin's_Truth.pdf" class="button">Download PDF</a>
             <br>
 			<br>
-			<a href="test.pdf" download="Always-Fiction-Document.pdf"><img src="Disturbing_Peace_Cover.jpg"" alt="Book Cover" class="story_img"></a>
-<p>Description text here.</p>
+			<a href="Pumpkin's_Truth.pdf" download="Pumpkin's_Truth.pdf"><img src="Pumpkin's_Truth_Banner.png"" alt="Book Cover" class="story_img"></a>
+        </div>
+		<div class="story">
+		<h3>Knots</h3>
+			<a href="Knots.pdf" download="Knots.pdf" class="button">Download PDF</a>
+            <br>
+			<br>
+			<a href="Knots.pdf" download="Knots.pdf"><img src="Knots_Banner.png"" alt="Book Cover" class="story_img"></a>
+        </div>
+		<div class="story">
+		<h3>Pool Exchange</h3>
+			<a href="Pool_Exchange.pdf" download="Pool_Exchange.pdf" class="button">Download PDF</a>
+            <br>
+			<br>
+			<a href="Pool_Exchange.pdf" download="Pool_Exchange.pdf"><img src="Pool_Exchange_Banner.png"" alt="Book Cover" class="story_img"></a>
+        </div>
+		<div class="story">
+		<h3>Our Halloween</h3>
+			<a href="Our_Halloween.pdf" download="Our_Halloween.pdf" class="button">Download PDF</a>
+            <br>
+			<br>
+			<a href="Our_Halloween.pdf" download="Our_Halloween.pdf"><img src="Our_Halloween_Banner.png"" alt="Book Cover" class="story_img"></a>
         </div>
     </div>
 </section>
